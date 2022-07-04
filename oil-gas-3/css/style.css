@@ -1,0 +1,103 @@
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.bi-droplet-fill {
+  color: darkorange;
+}
+
+.bi-secondary {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.navbar-nav li {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: absolute;
+  width: 100%;
+  height: 89%;
+}
+
+.socials {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.socials ul {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.socials ul li {
+  font-size: 30px;
+  transition: 0.1s;
+}
+
+.socials ul li:hover {
+  font-size: 35px;
+}
+
+.bi-instagram {
+  color: rgb(255, 173, 173);
+}
+
+.bi-facebook {
+  color: rgb(156, 156, 250);
+}
+
+.bi-twitter {
+  color: rgb(160, 219, 255);
+}
+
+.bi-linkedin {
+  color: rgb(149, 213, 255);
+}
+
+.rwc-embed__thumb img {
+  max-height: min-content !important;
+  max-width: min-content !important;
+  height: 90px;
+}
+
+.rwc-embed__thumb {
+  background-color: rgba(240, 248, 255, 0) !important;
+}
+
+.rwc-embed__thumb span.rwc-embed__thumb-unread {
+  top: -10px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: azure;
+}
+
+.informasi:hover {
+  background-color: rgba(245, 245, 245, 0);
+}
+
+#link {
+  color: blue !important;
+  text-decoration: underline;
+
+}

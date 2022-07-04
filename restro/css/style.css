@@ -1,0 +1,97 @@
+.container-fluid {
+  padding: 0;
+}
+
+ul > li > .nav-link {
+  color: #341d3a;
+}
+
+ul > li > .nav-link:hover {
+  color: deeppink;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #ac7bb9;
+}
+
+.name {
+  margin-top: auto;
+  font-weight: 650;
+}
+
+a {
+  text-decoration: none;
+  color: #321b38;
+}
+
+a:hover {
+  color: rgb(236, 66, 35);
+}
+.carousel {
+  height: 600px;
+  box-shadow: inset;
+}
+.carousel .carousel-item {
+  height: 600px;
+  box-shadow: inset;
+}
+
+.border {
+  border: 1px solid #dee2e600 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 750;
+  font-size: 2cm;
+}
+.carousel .carousel-indicators button {
+  background-color: #f79292;
+  width: 70px;
+  height: 2px;
+  opacity: 0.7;
+}
+.carousel .carousel-indicators button.active {
+  background-color: #f5554f;
+}
+
+.about {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cart-menu--hidden {
+  display: none;
+}
+
+.cart-menu--shown {
+  display: block;
+  animation: fadeInAnimation ease 1s;
+  animation-fill-mode: forwards;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.add-cart {
+  align-self: center;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
+}

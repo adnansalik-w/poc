@@ -1,0 +1,97 @@
+.nav-cont {
+  position: relative;
+  max-width: fit-content !important;
+  padding: 0px 0px !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+.top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 85vh;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #8f0b0b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f84b07;
+}
+
+/* Expand Nav elem on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.blob {
+  margin-top: 100px;
+  margin-left: 120px;
+  opacity: 0.7;
+}
+
+.carousel-item div {
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  font-size: xx-large;
+  color: white;
+}
+
+.head {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0;
+  margin: 0%;
+  font-weight: 600;
+}
+
+#desc {
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.bname {
+  font-size: 35px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #303335;
+}
+
+.bname:hover {
+  color: #303335;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #f84b07;
+  width: 70px;
+  height: 2px;
+}
+
+.socials {
+  font-size: 20px;
+}
+.socials:hover {
+  color: #f84b07;
+}
+
+.foot-cont{
+  position: relative;
+  max-width:none !important;
+  padding: 0px 100px !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
